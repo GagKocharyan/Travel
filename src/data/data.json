@@ -1,0 +1,34 @@
+{
+    "main" : {
+        "popular" : [
+            {
+                "img": "Venice",
+                "title": "Venice",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+                "price": 199
+            },
+
+            {
+                "img": "SanPaolo",
+                "title": "San Paolo",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+                "price": 249
+                
+            },
+
+            {
+                "img": "Barbados",
+                "title": "Barbados",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+                "price": 299
+            },
+
+            {
+                "img": "Cyprus",
+                "title": "Cyprus",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+                "price": 239
+            }
+        ]
+    }
+}

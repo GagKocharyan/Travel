@@ -1,0 +1,89 @@
+.popular-section {
+    padding-block: 100px 140px;
+}
+
+.popular-title {
+    font-family: "Grape Nuts", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.popular-primary {
+    --grid: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--grid), 1fr);
+    gap: 26px;
+    align-items: center;
+}
+
+.popular-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.text-window {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 31px 28px 26px 21px;
+}
+
+.popular-box__title {
+    font-size: 2.4rem;
+    font-family: "Grape Nuts", sans-serif;
+}
+
+.popular-description {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 200;
+}
+
+.popular-price {
+    font-size: 2rem;
+}
+
+.help-text {
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.slider {
+    display: flex;
+    position: relative;
+}
+
+.slider-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.slider-btn:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.prev {
+    left: -70px;
+}
+
+.next {
+    right: -70px;
+    scale: -1 1;
+}
+
+@media (max-width: 768px) {
+    [class*=__container] {
+        width: 100%;
+        padding-inline: 5%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button, input, select, textarea {
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}

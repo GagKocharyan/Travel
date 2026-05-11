@@ -1,0 +1,24 @@
+.experience-section {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-block: 3.6rem 4.6rem;
+
+    .section-title {
+        text-align: left;
+        margin-bottom: 2.4rem;
+    }
+
+    .section-text {
+        margin-bottom: 1rem;
+    }
+
+    .link {
+        align-self: end;
+    }
+}
+
+.experience-section__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 488px;
+    margin-inline: auto;
+}

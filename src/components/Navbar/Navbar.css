@@ -1,0 +1,15 @@
+.navbar {
+    margin-bottom: 14.4rem;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+}

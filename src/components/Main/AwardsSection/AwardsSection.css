@@ -1,0 +1,100 @@
+.awards-section {
+    margin-bottom: 13rem;
+
+    .section-title {
+        margin-bottom: 2.4rem;
+    }
+
+    .section-text {
+        font-size: 2rem;
+    }
+}
+
+.awards-section__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.form-block {
+    padding: 104px 64px 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.4rem;
+    text-align: center;
+}
+
+.form-title {
+    font-family: 'Abril Fatface', serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+} 
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    gap: 3.6rem;
+}
+
+
+.input {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 1.6rem 2.4rem;
+}
+
+.form-btn {
+    margin-top: auto;
+}
+
+.awards-title {
+    margin-bottom: 1.6rem;
+    padding-inline: 2.4rem;
+}
+
+.awards-items-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    justify-content: space-between;
+}
+
+.awards-item {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.award-image {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    width: 125px;
+    height: 115px;
+
+    .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.award-content {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.award-title,
+.award-desc {
+    font-size: inherit;
+    color: #4B4B4B;
+}
+
+.award-desk {
+    font-weight: 400;
+}
